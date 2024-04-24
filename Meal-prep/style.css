@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-container{
+    height: auto;
+    width: 100%;
+    background-color: #3B3738;
+}
+.nav-upper{
+    height: 47px;
+    width: 100%;
+    background-color: #333238;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.left-part{
+    width: 60%;
+    padding-inline: 20px;
+    margin-left: 80px;
+}
+.left-part ul{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 18px;
+    color: white;
+    list-style: none;
+}
+.right-part{
+    width:40% ;
+    padding-inline: 100px;
+    margin-left: -100px;
+}
+.right-part ul{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 18px;
+    color: white;
+    list-style: none;
+}
+.right-part ul li img{
+    background-color: white;
+    border-radius: 50%;
+}
+.nav-lower{
+    height: 74px;
+    width: 100%;
+    background-color: #3B3738;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-lower img{
+    margin-left: 100px;
+}
+.whatsaap{
+    height: 50px;
+    width: 50px;
+    background-color: #25D366;
+    border-radius: 50%;
+    margin-left: -130px;
+}
+.whatsaap svg{
+    margin-top: 7px;
+    margin-left: 10px;
+}
+.nav-lower button{
+   height: 49px;
+   width: 170px;
+   border: none;
+   border-radius: 40px;
+   color: white;
+   display: flex;
+   align-items: center;
+   margin-left: -130px;
+   font-size: 15px;
+   background: rgb(207,74,159);
+    background: linear-gradient(90deg, rgba(207,74,159,1) 51%, rgba(17,201,247,1) 100%, rgba(0,212,255,0.9697128851540616) 100%);
+}
+.nav-lower button svg{
+    margin-left: 18px;
+}
+.header-1 img{
+    width: 100%;
+}
+.header-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.header-2-image img{
+    height: 481px;
+    width: 875px;
+}
+.premium{
+    margin-left: 80px;
+}
+.header-3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-3-img img{
+    height: 501px;
+    width: 874px;
+}
+.header-3-text{
+    margin-right: 80px;
+}
+.header-4-text{
+    margin-left: 80px;
+}
+.header-4-img img{
+    height: 501px;
+    width: 873px;
+}
+.gallery-image{
+    height: 278px;
+    width: 411px;
+    margin-top: 50px;
+    margin-left: 36%;
+}
+.amenities{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-inline: 100px;
+    margin-top: 50px;
+}
+.good{
+    display: flex;
+    align-items: center;
+}
+#circle-1{
+    height: 59px;
+    width: 62px;
+    border-radius:50% ;
+    border: 1px solid white;
+}
+#circle-1 svg{
+    margin-left: 19px;
+    margin-top: 16px;
+}
+.amenities-2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-inline: 47rem;
+    margin-top: 70px;
+    margin-left: -39rem;
+}
+.Healthy-meal{
+    height: 314px;
+    width: 324px;
+    border: none;
+    background-color: #333238;
+    margin-top: 5rem;
+    margin-left: 13rem;
+}
+.Healthy-meal img{
+    width: 100%;
+}
+.Healthy-meal button{
+    border: none;
+    height: 32px;
+    width: 94px;
+    background-color: #40415B;
+    border-radius: 20px;
+    color: white;
+    font-size: 15px;
+    margin-top: 3rem;
+    margin-left:20px ;
+}
+.reviews-cart{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+.cart{
+    height: 232px;
+    width: 466px;
+    border: none;
+    background-color: white;
+}
+.Rahul-logo{
+    display: flex;
+}
+.Rahul-logo img{
+    height: 70px;
+    width: 72px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.Rahul-logo div{
+    margin-top: 40px;
+    margin-left: 20px;
+
+}
+.arrow{
+    display: flex;
+    align-items: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 72rem;
+}
+.box img{
+    height: 29px;
+    width: 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.box{
+    height: 61px;
+    width: 68px;
+    background-color: white;
+    margin-right:20px ;
+}
+.add{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 35rem;
+}
+.add button{
+    height: 52px;
+    width: 187px;
+    border-radius: 40px;
+    margin-right: 35px;
+}
+.cart-button{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    padding-inline: 180px;
+}
+#button-box-1 input{
+    background-color: #4F4B4C;
+    border: none;
+    color: white;
+    height: 242px;
+    width: 499px;
+    border: 0.01em solid gray;
+    
+}
+.button-box-2 input{
+    border: none;
+   color: white;
+   height: 55px;
+    width: 501px;
+    background-color: #4F4B4C;
+    border:1px solid gray;
+    margin-bottom: 37px;
+}
+.opening-box{
+    height: 430px;
+    width: 596px;
+    border: none;
+    color: white;
+    margin-top: 50px;
+    margin-left: 30rem;
+}
+.sunday{
+    height: 61px;
+    background-color: #302E2B;
+    margin-top: 20px;
+}
+
+.monday
+{
+    height: 61px;
+    background-color: #353231;
+}
+.tuesday{
+    height: 61px;
+    background-color: #302E2B;
+}
+.wednesday{
+    height: 61px;
+   background-color: #353231;
+
+}
+.thursday{
+    height: 61px;
+    background-color: #302E2B;
+}
+.friday{
+    height: 61px;
+    background-color: #202016;
+}
+.saturday{
+    height: 61px;
+    background-color: #302E2B;
+}
+.contact-us{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding-inline: 14rem;
+    margin-top: 80px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-inline: 60px;
+    margin-top: 50px;
+}
+.footer-inner{
+    display: flex;
+    color: white;
+    align-items: center;
+}
+.footer-inner p{
+    margin-left: 20px;
+}
+.footer-inner svg{
+    margin-left: 40px;
+}
+.footer-inner-2{
+    display: flex;
+    /* justify-content: space-evenly; */
+    color: white;
+     margin-left: 14rem;
+     margin-top: 1rem;
+
+}
+.footer-inner-2 p{
+    margin-left: 20px;
+}
+.footer-lower{
+    display: flex;
+    /* justify-content: space-evenly; */
+    height: 92px;
+    width: 100%;
+    background-color: #302E2E;
+    margin-top: 50px;
+    color: white;
+    /* margin-left: 40px; */
+}
+.merchant{
+    display: flex;
+    margin-left: 12rem;
+    margin-top: 40px;
+}
+.footer-lower p{
+    margin-left: 30px;
+}
+.powered-by{
+    display: flex;
+    align-items: center;
+    margin-left: 45rem;
+    margin-top:20px;
+    /* text-align: center; */
+}
+.powered-by svg{
+    margin-left: 15px;
+}

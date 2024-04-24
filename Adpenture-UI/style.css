@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-container{
+    height: auto;
+    width: 100%;
+    background-color: black;
+}
+.blue-box{
+    height: 100vh;
+    width: 100%;
+    background-color: #EAF2F5;
+}
+.bg-image{
+    background-image: url(./virtual-adventure/bg.png);
+    background-position: center;
+    background-size: cover;
+    height: 630px;
+    width: 90%;
+    margin-left: 5rem;
+    position: absolute;
+    border-radius: 20px;
+    margin-top:-42rem ;
+
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+
+}
+.nav img{
+    height:55px;
+}
+.list p{
+    /* font-size: 20px; */
+    margin-right: 25px;
+}
+.list{
+    /* font-size: 20px; */
+    display: flex;
+    align-items: center;
+}
+.nav button{
+    font-size: 11px;
+    height: 30px;
+    width: 75px;
+    border: 1px solid black;
+    background-color: transparent;
+    color: black;
+    border-radius: 10px;
+    margin: 0;
+}
+.bg-image h1{
+    font-size: 37px;
+    margin-top: 20px;
+    text-align: center;
+}
+.bg-image p{
+    font-size: 11px;
+    text-align: center;
+    margin-top: 10px;
+    color: gray;
+}
+#explore{
+    height: 35px;
+    width: 100px;
+    background-color: #FDC323;
+    border: none;
+    color: black;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 630px;
+}

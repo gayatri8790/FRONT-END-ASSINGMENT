@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-container{
+     height: 100vh;
+     width: 100%;
+     background-color: black;
+
+}
+.pink-box{
+    height: 100vh;
+    width: 70%;
+    background-color: #FFF5EB;
+    margin-left: 14rem;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: 64%;
+    border: 3px solid gray;
+    background-color: transparent;
+    border-radius: 17px;
+    margin-left: 17rem;
+    margin-top: -43rem;
+}
+.nav svg{
+    margin-left: 30px;
+}
+.search{
+    display: flex;
+    margin-left: 150px;
+
+}
+.search svg{
+    margin-right: 15px;
+}
+.search h4{
+    margin-right: 15px;
+}
+.header{
+    height: 590px;
+    width:64% ;
+    border: 3px solid gray;
+    border-radius:17px  17px 0px 0px ;
+    background-color: transparent;
+    margin-left: 17rem;
+    margin-top: 30px;
+}
+.furniture-text{
+    display: flex;
+    align-items: center;
+}
+.table-img{
+    width: 55%;
+    height:510px ;
+
+}
+.table-img img{
+    height: 250px;
+    margin-top: 100px;
+    margin-left: 90px;
+
+}
+.three-img{
+    display: flex;
+    align-items: center;
+}
+.three-img img{
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 80px;
+}
+.cash{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.cash button{
+    border: 1px solid black;
+    height: 17px;
+    font-size: 11px;
+    background: transparent;
+    border-radius: 5px;
+    width: 50px;
+    margin-left: 210px;
+}
+.cart{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+.text-part{
+    height: 500px;
+}
+.inner-text{
+    padding-inline: 25px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+}

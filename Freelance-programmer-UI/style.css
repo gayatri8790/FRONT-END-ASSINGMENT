@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-container{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+.bg-image{
+    background-image: url(./freelance-programmer/test.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 855px;
+    margin-left: 14.5rem;
+}
+.nav{
+    display: flex;
+
+
+}
+.nav img{
+    height: 30px;
+    margin-left: 40px;
+    margin-top: 30px;
+
+}
+.nav p{
+    margin-top: 30px;
+    color: #E96F7E;
+    font-size: 12px;
+    margin-right: 20px;
+}
+.nav button{
+    height: 30px;
+    margin-top: 25px;
+    font-size: 11px;
+    width: 70px;
+    border:1px solid #E96F7E;
+    background: transparent;
+    color: white;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.footer button{
+    border: none;
+    background-color: #E96F7E;
+    color: white;
+    height: 25px;
+    width: 100px;
+    margin-left: 30px;
+    font-size: 11px;
+
+}
+.footer svg{
+    margin-left: 20px;
+}

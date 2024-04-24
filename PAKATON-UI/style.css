@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-container{
+    height: auto;
+    width: 100%;
+    background-color: black;
+}
+.bg-image{
+    height: 713px;
+    width: 950px;
+    margin-left: 18rem;
+    background-image: url(./Asset/hero-bg.png);
+    background-position: center;
+    background-size: cover;
+}
+.box{
+    height: 676px;
+    width: 820px;
+    border: 5px solid black;
+    border-radius: 40px 40px 0px 0px;
+    margin-left: 22rem;
+    margin-top: -42rem;
+    padding-top: 50px;
+    position: absolute;
+    
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: -5px;
+}
+.nav p{
+    font-size: 12px;
+}
+.nav img{
+    height: 43px;    
+}
+.nav button{
+    height: 28px;
+    width: 82px;
+    border:1px solid red;
+    background-color: transparent;
+    color: red;
+    border-radius: 10px;
+}
+.outstanding h1{
+    font-size: 45px;
+    text-align: center;
+    margin-top: 50px;
+}
+.outstanding button{
+    background-color: #DD4E41;
+    color: white;
+    height: 37px;
+    width: 126px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 22rem;
+    font-size: 12px;
+}
